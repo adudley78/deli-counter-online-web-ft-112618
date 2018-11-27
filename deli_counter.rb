@@ -17,7 +17,7 @@ def take_a_number(number_in_line, person_in_line)
   number_in_line.each.with_index(1) do |person_in_line, number_in_line|
     current_number << " #{person_in_line}. You are number #{number_in_line} in line."
   end
-  puts current_number
+    puts current_number
   #need a .reverse b/c people count from 1, not zero
 end
 
