@@ -9,7 +9,7 @@ def line(person_in_line)
       current_line << "#{index}. #{person_in_line}"
     end
     puts current_line
-  end  
+  end
 end
 
 def take_a_number(katz_deli_array, person_in_line)
