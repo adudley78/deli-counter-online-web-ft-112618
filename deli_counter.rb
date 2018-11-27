@@ -4,7 +4,6 @@ def line(person_in_line)
   if person_in_line.empty?
     puts "The line is currently empty."
   else
-    person_in_line.empty?
     current_line = "The line is currently: "
     person_in_line.each.with_index(1) do |person_in_line, index|
       current_line << "#{index}. #{person_in_line}"
