@@ -8,8 +8,8 @@ def line(person_in_line)
     person_in_line.each.with_index(1) do |person_in_line, index|
       current_line << "#{index}. #{person_in_line}"
     end
-  end
-    puts current_line
+  puts current_line
+  end  
 end
 
 def take_a_number(katz_deli_array, person_in_line)
