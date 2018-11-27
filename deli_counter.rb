@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(person_in_line)
-  if person_in_line.length < 1
+  if person_in_line.length
     puts "The line is currently empty."
   elsif
     person_in_line.empty?
