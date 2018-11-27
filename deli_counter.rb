@@ -19,7 +19,6 @@ def take_a_number(number_in_line, person_in_line)
   end
   puts current_number
   #need a .reverse b/c people count from 1, not zero
-  puts
 end
 
 def now_serving(person_in_line)
