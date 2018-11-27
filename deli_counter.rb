@@ -12,8 +12,13 @@ def line(person_in_line)
   end
 end
 
-def take_a_number(katz_deli_array, person_in_line)
-  puts #need a .reverse b/c people count from 1, not zero
+def take_a_number(number_in_line)
+  current_number "Welcome, "
+  number_in_line.each.with_index(1) do [person_in_line, index]
+    current_number << "#{person_in_line}. You are number #{index} in line."
+  end
+  #need a .reverse b/c people count from 1, not zero
+  puts 
 end
 
 def now_serving(person_in_line)
