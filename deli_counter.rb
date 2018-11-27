@@ -14,7 +14,7 @@ end
 
 def take_a_number(number_in_line, person_in_line)
   current_number = "Welcome, "
-  number_in_line.each.with_index(1) do [number_in_line, person_in_line, index]
+  number_in_line.each.with_index(1) do [number_in_line, person_in_line]
     current_number << " #{person_in_line}. You are number #{number_in_line} in line."
   end
   puts current_number
