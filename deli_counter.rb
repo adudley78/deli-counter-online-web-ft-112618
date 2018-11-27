@@ -26,7 +26,7 @@ def now_serving(person_in_line)
   if person_in_line.empty?
     puts "There is nobody waiting to be served!"
     current_customer = "Currently serving"
-    person_in_line.each.with_index(1) do 
+    person_in_line.each.with_index(1) do
     end
   puts # next person in line and removes them from the front
 end
