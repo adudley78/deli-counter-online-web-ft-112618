@@ -9,6 +9,7 @@ def line(person_in_line)
   elsif person_in_line.length < 1
     puts "The line is currently empty."
   end
+    puts current_line
 end
 
 def take_a_number(katz_deli_array, person_in_line)
