@@ -14,8 +14,8 @@ end
 
 def take_a_number(number_in_line, person_in_line)
   current_number = "Welcome, "
-  number_in_line.each.with_index(1) do [person_in_line, index]
-    current_number << "#{person_in_line}. You are number #{index} in line."
+  number_in_line.each.with_index(1) do [number_in_line, index]
+    current_number << " #{person_in_line}. You are number #{index} in line."
   end
   puts current_number
   #need a .reverse b/c people count from 1, not zero
