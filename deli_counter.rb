@@ -14,7 +14,7 @@ end
 
 def take_a_number(number_in_line, person_in_line)
   current_number = "Welcome, "
-  number_in_line.each.with_index(1) do [number_in_line, person_in_line]
+  number_in_line.each.with_index(1) do |number_in_line, person_in_line|
     current_number << " #{person_in_line}. You are number #{number_in_line} in line."
   end
   puts current_number
@@ -23,6 +23,10 @@ def take_a_number(number_in_line, person_in_line)
 end
 
 def now_serving(person_in_line)
-
+  if person_in_line.empty?
+    puts "There is nobody waiting to be served!"
+    current_customer = "Currently serving"
+    person_in_line.each.with_index(1) do 
+    end
   puts # next person in line and removes them from the front
 end
