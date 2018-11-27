@@ -29,7 +29,7 @@ def now_serving(person_in_line)
   else
     current_customer = "Currently serving"
     person_in_line.each.with_index(1) do | person_in_line |
-      current_customer = "Currently serving #{person_in_line}."# operator? "#{person_in_line}." Was trying to .pop off an element from a string. Doesn't work!
+      current_customer = "Currently serving #{person_in_line.delete(1)}."# operator? "#{person_in_line}." Was trying to .pop off an element from a string. Doesn't work!
     end
     current_customer # next person in line and removes them from the front
   end
